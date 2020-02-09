@@ -1,0 +1,474 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Cooper - RESPONSIVE PERSONAL  TEMPLATE</title>
+	
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#DE6325;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+		<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start - Files</a></li>
+			<li><a href="#colors">Colors</a></li>
+			<li><a href="#structure">Navigation with change background</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#port">Portfolio</a></li>
+			<li><a href="#contact_form">Contact form</a></li>
+			<li><a href="#video">Video background</a></li>
+			<li><a href="#map">Map</a></li>
+			<li><a href="#share">Share</a></li>
+			<li><a href="#sources_credits">Sources & Credits</a></li>
+			<li><a href="#update">Updates</a></li>
+			<li><a href="#thanks">Thanks</a></li>
+
+		</ol>
+	</div>
+	<div id="documenter_content">
+	
+	
+	
+	<section id="documenter_cover"><h1>Cooper </h1><h2> Responsive  Personal  Template</h2><hr><ul><li>Created: 13/11/2016</li><li>latest Update: 08/02/2017</li><li>By: KWST</li><li><a href="http://themeforest.net/user/kwst"></a></li><li>Email: <a href="mailto:support@kwst.net">support@kwst.net</a></li></ul>
+	<p>Thanks for purchasing tempalte and for supporting my work. Cooper - Responsive  Personal  Template. This documentation will not teach you HTML & CSS, it's just showcase of custom elements used in template.  . Also included in the archive selection page version. It is located in the folder "intro" .</p> <br>
+	<p><strong style="color:red"> Very important !</strong> In order to work php scripts (contact form)- your site files must reside on the local host or server. In turn, you can easily edit any page (all JavaScript files will work).</p>
+<br><br><h3>Files</h3><hr class="notop"><br>
+<p>All site files are divided into folders:<br><br>
+<strong>css folder</strong> - css files that are responsible for the style themes.<br>
+<strong>js folder</strong> - javascript files.<br>
+<strong>php folder</strong> - php files.<br>
+<strong>images folder</strong> - folder that contains all images.<br>
+<strong>fonts folder</strong> - folder that contains  fonts plugin "Font-Awesome".<br>
+ 
+</p>
+
+
+</section>
+<div class="clerfix"></div>
+<section id="colors">
+<h3>Colors</h3>
+<p>By default, 'Сщззук' has a global color - light yellow ( CCA2B2).<strong>To change the color, you must do the following steps:</strong>
+<br>
+1. Locate the folder css  file <strong>color.css</strong> and open it with your text editor.	
+<br>
+2.In this file, you should find a line responsible for the color theme. Look at the code below.
+<br>
+3. Just replace the six numbers and letters after the lattice in the file "color.css". Forgot to mention the theme color using hex format. If you want to add color format "rgba" then need to remove the lattice. If you do not know where to find the code of the color you click on this <a href="http://www.color-hex.com/color-palettes/" target="_blank">link</a>.</p>
+
+<pre class="brush: css">
+@charset "utf-8";
+/*--
+	Color styles
+--*/
+header li.act-link a , .text-title span , .dec-list li:before  , .resum-header i , .sl-tabs li i , .testimonials-slider ul.star-rating li , .to-top-wrap i ,.scroll-nav a.external:after , .mail-link:hover  , .price  , .fixed-filter .gallery-filters a.gallery-filter-active , .slider-zoom , .page-nav a span , .post-meta li i , .post-author-wrap li a , .controls button , .sliding-menu a:hover{
+	color:#CCA2B2;
+}
+header.sticky  li.act-link a , .footer-social li a  ,   .share-icon , .fixed-icons-wrap ul li a  , .bold-separator , .fixed-column , .btn , .scroll-nav li a.act-link:before  , .scroll-nav li a.act-link:after  , .custom-skillbar , .price:before , .color-bg , ul.tabs li.current .tb-item , .testimonials-slider-holder .customNavigation a  , .accordion-title.activeac  h5 a , .resum-header:before  , .menu-inner:before , .customNavigation.gals a , .bold-title:before , .progress-bar  , #submit , .grid-det h3:before , .inline-filter .gallery-filters a.gallery-filter-active , .box-item.vis-det a , .inline-filter .folio-counter , .fixed-filter .folio-counter , .box-item.hd-box .image-popup , .post-tags li a:hover , .pagination a.current-page , .pagination a:hover , .carousel-item h3:before   , .box-item.vis-det a.popgal , .show-share:before{
+	background:#CCA2B2;
+ 
+}
+.loader {
+	border-top: 10px solid  #CCA2B2;
+	border-right: 10px solid #CCA2B2;
+	border-bottom: 10px solid #CCA2B2;
+}
+.hd-box-wrap h2:after{
+	border-color: transparent #CCA2B2 transparent transparent;
+}
+
+</pre>
+
+</section>
+
+
+	
+
+<section id="structure">
+<h3>Navigation with change background </h3><hr class="notop">
+<p>The uniqueness of this navigation - and text varies depending on the display section . </p>
+<p>Code : </p>
+ <pre class="brush: js">
+                <!-- scroll page navigation -->
+                <div class="scroll-nav-holder fl-wrap">
+                    <nav class="scroll-nav fl-wrap">
+                        <ul>
+                            <li><a class="scroll-link fbgs" href="#sec2" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a></li>
+                            <li><a class="scroll-link" href="#sec4" data-bgscr="images/bg/long/1.jpg" data-bgtex="resume"><span>Resume</span></a></li>
+                            <li><a class="scroll-link" href="#sec5" data-bgscr="images/bg/long/1.jpg" data-bgtex="services"><span>Services</span></a></li>
+                            <li><a class="scroll-link" href="#sec6" data-bgscr="images/bg/long/1.jpg" data-bgtex="skills"><span>Skills</span></a></li>
+                            <li><a class="scroll-link" href="#sec7" data-bgscr="images/bg/long/1.jpg" data-bgtex="clients"><span>Clients</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- scroll page navigation end --> 
+		
+</pre>
+
+<p>Attribute to change image <strong>data-bgscr="images/bg/long/6.jpg"</strong><p>
+<p>Attribute to change text  <strong>data-bgtex="About"</strong><p>
+ 
+
+<p>URL of each link in the menu must correspond to the ID section is being scroll. for example:<p>
+ <pre class="brush: html">
+    <li><a class="scroll-link" href="#sec2" data-bgscr="images/bg/long/12.jpg" data-bgtex="resume"><span>Resume</span></a></li>		
+</pre>
+ 
+<p> Will scroll pages with ID  at the section</p>
+  <pre class="brush: html">
+    <section  id="sec2"> 
+		...
+	</section>		
+</pre>
+
+<p>Image and text changes in a fixed column : </p>
+  <pre class="brush: html">
+            <!-- fixed column  -->
+            <div class="fixed-column">
+                <div class="column-image fl-wrap full-height">
+                    <div class="bg bg-scroll" ></div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="bg-title alt"><span></span></div>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <!-- fixed column  end -->
+	
+</pre>
+ </section>	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+<section id="images">	
+<h3>Images</h3><hr class="notop">
+<p>All images are in the folder "images".<br>       
+</p>
+<br>
+<h3>How to add and change the background image</h3>
+
+<p>To change the background you can simply change the path in the style rendered in html code, for example : </p>
+<pre class="brush: html">
+ 
+<div class="bg"  data-bg="images/bg/1.jpg"></div>
+	
+</pre>
+ 
+
+  
+</section>
+
+<section id="icons">
+	<h3>Icons</h3><hr class="notop">
+<p>	All  icons are generated by the plugin <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">"Font-Awesome"</a>. List of all the icons can be found <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>. 
+<br>
+To change the icon, you have to copy and paste the code icon at the right place for you. Icons size-five . Read the documentation plugin - it is described in detail how to change the icons size.
+
+</p>
+<p>For example: </p>
+<pre class="brush: html">
+
+<div class="social-links">
+	<ul>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+	</ul>
+</div>
+
+</pre>
+
+<p>&nbsp;
+	</p>
+</section>
+
+<section id="port">
+<h3>Portfolio</h3><hr class="notop">
+
+ 
+<p>Default width portfolio structure consists of three columns . If you want to make four  columns you have to add the class  <strong style="color:red">four-column</strong> to the div tag with  class <strong style="color:red">gallery-items</strong> </p> 
+
+<pre class="brush: html">
+ <div class="gallery-items spad four-column">
+
+<!--4 colums  -->
+</div>
+
+</pre>
+<p>Filters portfolio - To filter worked - class links in the code must conform to the class of the filter element, for example: </p>  
+ 
+ 
+<pre class="brush: html">
+                                <div class="gallery-filters">
+                                    <a href="#" class="gallery-filter  gallery-filter-active" data-filter="*">All</a>
+                                    <a href="#" class="gallery-filter" data-filter=".web">Web Design</a>
+                                    <a href="#" class="gallery-filter" data-filter=".photography">Photo</a>
+                                    <a href="#" class="gallery-filter" data-filter=".branding">Branding</a>
+                                    <a href="#" class="gallery-filter" data-filter=".uides">Ui Design</a>
+                                </div>
+
+</pre>
+<pre class="brush: html">
+                                <!-- gallery-item-->
+                                <div class="gallery-item photography">
+                                    <div class="grid-item-holder">
+                                        <img  src="images/folio/1.jpg"    alt="">
+                                        <div class="box-item hd-box">
+                                            <div class=" fl-wrap full-height">
+                                                <div class="hd-box-wrap">
+                                                    <h2><a href="portfolio-single.html">Old Cars on Street</a></h2>
+                                                    <p><a href="#"> Photography  </a> <span> / </span><a href="#"> Development</a></p>
+                                                </div>
+                                                <a data-src="images/folio/1.jpg" class="image-popup"><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- gallery-item end-->
+
+
+
+</pre>
+ <p>In this case, when you click on the link with the class "photography" will be displayed elements with class "photography"</p> 
+ 
+ </section>
+ 
+
+<section id="contact_form">
+	<h3>Contact Form</h3><hr class="notop">
+<p>
+Find the file "contact_me" in the folder <strong>php</strong> . In this file, find the line <strong style="color:red">$to_Email = "myemail@gmail.com";</strong> and add you e-mail.</p> 
+<p>How to forward mail to your mailbox ask your Hosting Service Provider. Because providers use different control panel site and I find it hard to predict what you use. Server side script for sending emails is in "contact_me.php" . Ajax submit is initialized in "scripts.js" file.</p>
+<p>&nbsp;
+	</p>
+	
+<pre class="brush: js">
+	// contact form ------------------
+    $("#contactform").submit(function() {
+        var a = $(this).attr("action");
+        $("#message").slideUp(750, function() {
+            $("#message").hide();
+            $("#submit").attr("disabled", "disabled");
+            $.post(a, {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                comments: $("#comments").val()
+            }, function(a) {
+                document.getElementById("message").innerHTML = a;
+                $("#message").slideDown("slow");
+                $("#submit").removeAttr("disabled");
+                if (null != a.match("success")) $("#contactform").slideDown("slow");
+            });
+        });
+        return false;
+    });
+    $("#contactform input, #contactform textarea").keyup(function() {
+        $("#message").slideUp(1500);
+    });
+
+</pre>
+</section>
+
+
+<section id="video">
+<h3>Video</h3><hr class="notop">
+
+
+<p>This template uses Youtube  video as background . To add your video  in html file find line :</p>
+
+<pre class="brush: html">
+ 
+<div  class="background-video" data-vid="oDpSPNIozt8" data-mv="1"> </div>
+</pre>
+
+<p>add you video id  in data-vid="" if you want add sound change data-mv="1" on data-mv="0" </p>
+<p>And yet the video does not play on smartphones :( - so if a user comes to your site from a mobile browser - the background is replaced by a picture :)</p>
+ 
+ 
+
+ 
+
+
+ </section>	
+
+
+<section id="share">
+<h3>Share your pages</h3><hr class="notop">
+<p>To configure the plugin  in each  html  find line :</p>
+<pre class="brush: html"> 		
+<div class="share-container  isShare"  data-share="['facebook','pinterest','googleplus','twitter','linkedin']"></div>
+</pre>
+<p>You can simply add a comma in line: <strong>social: 'facebook','pinterest','googleplus','twitter','linkedin' 'foursquare' , 'flickr', 'digg' , 'tumblr', 'vimeo' , 'stumbleupon'</strong>  separated names of social networks . On any page, you can add any option sets share buttons for social networking</p>
+</section>
+
+ 
+ <section id="map">
+<h3>Map</h3><hr class="notop">
+<p>To configure the map   in   file map.js   find code :</p>
+<pre class="brush: js"> 		
+			// markers and locations------------------
+            values: [ {
+                latLng: [ 40.7143528, -74.0059731 ],
+                data: "Our office  - New York City",
+                options: {
+                    icon: "images/marker.png"
+                }
+            } ],	
+</pre>
+<p> And add your own values latLng: [ 40.7143528, -74.0059731 ]  latitude and longitude , data  = Description in the pop-up window . To find the coordinates - visit this <a href="http://www.mapcoordinates.net/en" target="_blank"><strong style="color:red">link</strong></a>  </p>
+
+<p>Next step you need api key  . To find key visit this  <a href="https://developers.google.com/maps/documentation/javascript/get-api-key"><strong style="color:red">link</strong></a> . And add your key in each page in code :
+
+ </p>
+ <pre class="brush: html">
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script>
+</pre>
+</section>
+
+
+ 
+ 
+ 
+<section id="share">
+<h3>Share your pages</h3><hr class="notop">
+<p>To configure the plugin  in html file  find line :</p>
+<pre class="brush: html"> 		
+<div class="share-container"  data-share="['facebook','pinterest','googleplus','twitter','linkedin']"></div>
+
+	
+</pre>
+<p>You can simply add a comma in line: <strong>social: ['facebook','pinterest','googleplus','twitter','linkedin'] ,</strong>  separated names of social networks . On each page, you can add different links to share
+</p>
+<p>Supported social networks : facebook , twitter , linkedin , in1 , tumblr , digg , googleplus , reddit , pinterest , posterous , stumbleupon</p>
+</section>
+ 
+ 
+ 
+
+<section id="sources_credits">
+	<h3>Sources & Credits</h3><hr class="notop">
+<p>
+	<strong>Fonts</strong><br>
+	http://www.google.com/fonts<br>
+	<br><br>
+	
+	
+	<strong>Images</strong><br>
+	Shutterstock<br>
+	http://www.shutterstock.com/
+	<br><br>
+ 
+ 	
+	</p>
+
+<p>
+	<strong>Icons</strong><br>
+		Font-Awesome<br>
+	http://fortawesome.github.io/Font-Awesome/</p>
+
+
+
+<p>
+<strong>Javascripts </strong><br><br>
+
+	<strong>JQuery</strong><br>
+	http://jquery.com</p>
+<p>
+	<strong>JQuery Easing</strong><br>
+	http://gsgd.co.uk/sandbox/jquery/easing/</p>
+<p>
+	<strong>Owlcarousel</strong><br>
+	http://www.owlcarousel.owlgraphic.com/</p>
+ 
+
+	<p>
+	<strong>isotope</strong><br>
+	http://isotope.metafizzy.co/</p>
+ 	
+	
+		<p>
+	<strong> Lightgallery</strong><br>
+	http://sachinchoolur.github.io/lightGallery/</p>	
+	
+ 
+	
+</section>
+ 
+
+
+<section id="update">
+<h3>Updates</h3><hr class="notop">
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ </section>	
+<section id="thanks">
+	<h3>Thanks</h3><hr class="notop">
+<p>
+	Thanks for purchasing template and for supporting my work. If we fail here in this documentation, please e-mail me  <a href="mailto:support@kwst.net">support@kwst.net</a>. If you have a spare time, please go and rate my template. I will apreciate that.</p>
+<p>
+	Thanks</p>
+</section>
+
+	</div>
+</body>
+</html>
