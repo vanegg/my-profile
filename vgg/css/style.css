@@ -462,7 +462,7 @@ header.main-header {
 .logo-holder {
 	position:absolute;
 	top:60px;
-	left:15px;
+	left:5px;
 	width:40px;
 }
 .logo-holder img {
@@ -472,11 +472,11 @@ header.main-header {
 }
 .nav-button {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-top:-15px;
     top:50%;
-    left:20px;
+    left:15px;
     z-index:10;
     cursor:pointer;
 }
@@ -489,7 +489,7 @@ header.main-header {
 	float:left;
 	text-align:center;
 	font-style:italic;
-	color:#fff;
+	color:#2C798A;
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition: all 300ms linear;
@@ -507,7 +507,7 @@ header.main-header {
     backface-visibility: hidden;
     position: absolute;
     left: 0;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #2C798A;
     width: 100%;
     transition: 0.55s;
 }
@@ -567,7 +567,7 @@ header.main-header {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing:2px;
-	color: #fff;
+	color: #000;
 	line-height:20px;
 }
 .menu-wrap {
@@ -610,7 +610,7 @@ header.main-header {
 	height: 100%;
 	top: 0;
 	right: 0;
-	fill:rgba(0,0,0,0.71);
+	fill:#eee;
 }
 .menu-inner {
 	float:left;
@@ -621,7 +621,7 @@ header.main-header {
 }
 .menu-logo {
 	position:absolute;
-	top:45px;
+	top:60px;
 	left:0;
 	width:100%;
 }
@@ -966,7 +966,7 @@ section.dec-sec:after {
 	left:14%;
 	width:1px;
 	bottom:-50px;
-	background:#eee;
+	background: #E28780;
 }
 .hero-wrap-item.left-her  .container {
 	border-left:1px solid rgba(255,255,255,0.21);
@@ -1074,7 +1074,7 @@ section.dec-sec:after {
 	left:20%;
 	right:-10px;
 	bottom:-10px;
-	border:1px solid #eee;
+	border:1px solid #E28780;
 	border-left:none;
 	box-sizing:border-box;
 }
@@ -1885,7 +1885,7 @@ section.dec-sec:after {
 .to-top-wrap a {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
-	color: #999;
+	color: #2C798A;
 }
 /*------ Porfolio  ------------------------------------------------*/
 .gallery-items {
@@ -2962,7 +2962,7 @@ article h4 a:hover {
 .show-share {
 	position:absolute;
 	bottom:40px;
-	left:22px;
+	left:15px;
 	cursor:pointer;
 	width:20px;
 	height:20px;
@@ -2988,7 +2988,7 @@ article h4 a:hover {
 	float:left;
 	text-align:center;
 	font-style:italic;
-	color:#fff;
+	color:#2C798A;
 	opacity:0;
 	visibility:hidden;
 }
