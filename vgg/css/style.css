@@ -400,6 +400,12 @@ blockquote p {
     display: inline-block;
 	border-radius:4px;
 }
+
+.btn.black{
+	color: #fff;
+	background: #000;
+}
+
 .btn i{
 	padding-right: 10px;
 	font-size: 15px;
@@ -567,7 +573,7 @@ header.main-header {
 .menu-wrap {
 	position: fixed;
 	z-index: 19;
-	width: 370px;
+	width: 200px;
 	top:0;
 	bottom:0;
 	font-size: 1.15em;
@@ -868,7 +874,7 @@ header.main-header {
 }
 .scroll-nav li a.act-link:before , .scroll-nav li a.act-link:after  {
 	height:100%;
-	opacity:1;
+	opacity:0.75;
 }
 /*------ section-------------------------------------------------*/
 section {
@@ -951,16 +957,16 @@ section.dec-sec:after {
 	z-index:6;
 }
 .hero-wrap-item.single-title-wrap {
-	padding-left:15%;
+	padding-left:16%;
 }
 .hero-wrap-item.single-title-wrap:before {
 	content:'';
 	position:absolute;
 	top:-50px;
-	left:13%;
+	left:14%;
 	width:1px;
 	bottom:-50px;
-	background:rgba(255,255,255,0.21)
+	background:#eee;
 }
 .hero-wrap-item.left-her  .container {
 	border-left:1px solid rgba(255,255,255,0.21);
@@ -1056,7 +1062,7 @@ section.dec-sec:after {
 	 position:absolute;
 	 top:20%;
 	 right:20%;
-	 bottom:20%;
+	 bottom:15%;
 	 left:50%;
 	  -webkit-perspective: 1000;
 	  z-index:1;
