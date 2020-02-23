@@ -481,7 +481,7 @@ header.main-header {
     cursor:pointer;
 }
 .nav-button:after {
-	content:"Menu";
+	content:"";
 	position:absolute;
 	top:-36px;
 	left:-2px;
@@ -2980,7 +2980,7 @@ article h4 a:hover {
 	width:0;
 }
 .show-share:after {
-	content:"share";
+	content:"";
 	position:absolute;
 	top:-36px;
 	left:-2px;
