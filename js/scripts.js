@@ -287,9 +287,9 @@ function initCooper() {
     $(".piechart-holder").appear(function() {
         $(this).find(".chart").each(function() {
             $(".chart").easyPieChart({
-                barColor: "#FFF",
-                trackColor: "#404040",
-                scaleColor: "#FFF",
+                barColor: "#2C798A",
+                trackColor: "#eee",
+                scaleColor: "##2C798A",
                 size: "150",
                 lineWidth: "40",
                 lineCap: "butt",
