@@ -339,9 +339,9 @@ blockquote p {
 	z-index:1;
 }
 .progress-bar {
-    position:    relative;
-    height:      5px;
-    width:       0%;
+  position:    relative;
+  height:      5px;
+  width:       0%;
 	border-radius:3px;
 	z-index:2;
 	top:8px;
@@ -1077,6 +1077,11 @@ section.dec-sec:after {
 	border:1px solid #E28780;
 	border-left:none;
 	box-sizing:border-box;
+}
+.mm-parallax {
+	-webkit-transition: all 4000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+	-moz-transition: all 4000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+	transition: all 4000ms cubic-bezier(.19, 1, .22, 1) 0ms;
 }
 .impulse-wrap {
 	background:#fff;
@@ -3269,8 +3274,20 @@ footer.main-footer {
 .gallery-item {
 	width:50% !important;
 }
+/*------custome------------------------------------------------*/
 .mm-par-wrap {
-	top:calc(5% + 70px);
+	top:20%;
+	bottom:50%;
+	left:10%;
+	right:10%;
+	width:80%;
+}
+.hero-wrap-item.single-title-wrap {
+	top:70%;
+	background-color: none;
+}
+.hero-wrap-item.single-title-wrap:before {
+	width: 0px;
 }
 .hero-item {
     top: 70px;
